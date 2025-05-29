@@ -16,5 +16,10 @@ public class ExploreInteger {
                             + "\nSize = " + Integer.SIZE
                             + "\nBytes = " + Integer.BYTES
                             + "\nType = " + Integer.TYPE);
+
+        int i = 10;
+        Integer iObj = 134;
+        Integer iObj2 = Integer.valueOf("54");
+        System.out.println(i + " " + iObj + " " + iObj2);
     }
 }
